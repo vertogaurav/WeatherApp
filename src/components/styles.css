@@ -8,3 +8,19 @@
     height: 50px;
 
 }
+.content{
+    width: max-content;
+}
+.sideNav{
+    width: 40%;
+    float: left;
+    border-left: rgb(92, 90, 90);
+    padding-right: 10px;
+}
+.cardLayout{
+    width: 33%;
+}
+.ImgDeatail{
+    width:10rem;
+    height: 10rem;
+}
