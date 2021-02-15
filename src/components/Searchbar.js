@@ -22,6 +22,8 @@ export default function Search(props) {
       <div className='seacrhStyle'>
         <input value={props.searchText} onChange={props.handleInput} />
       </div>
+      <br></br>
+      <hr></hr>
       <div>
       <Card1 data={data} />
       </div>

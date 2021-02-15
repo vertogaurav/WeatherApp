@@ -12,6 +12,8 @@ function App() {
   }
   return (
     <div className="App">
+      <h1>Weather App</h1>
+      <br></br>
       <Switch>
         <Route exact path="/" render={() => 
           <Search searchText={searchText} handleInput={handleInput} />
