@@ -7,7 +7,8 @@ function CityDetails(props) {
     return (
         <div className="result">
             <div>{detail.name}</div>
-            <div>{detail.main.temp}</div>
+            <div>{detail.main.temp}°Cel</div>
+            <div>{detail.weather[0].description}</div>
            
 
         </div>
