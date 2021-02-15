@@ -13,6 +13,7 @@ function CityDetails(props) {
                 <div>Temp - {detail.main.temp}°Cel</div>
                 <div>Sky - {detail.weather[0].description}</div>
             </div>
+            <div><h2>Today Highlights</h2></div>
            <div className="Card">
             <div> 
                 <Card className="content">
