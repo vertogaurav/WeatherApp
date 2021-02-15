@@ -6,7 +6,9 @@ function CityDetails(props) {
     const detail= props.location.state.details;
     return (
         <div className="result">
-           {detail.name}
+            <div>{detail.name}</div>
+            <div>{detail.main.temp}</div>
+           
 
         </div>
     )
